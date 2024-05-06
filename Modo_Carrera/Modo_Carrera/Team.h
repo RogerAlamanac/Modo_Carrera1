@@ -1,22 +1,11 @@
 #pragma once
-
-enum class Positions{
-	STRIKER,
-	WINGER,
-	MIDFIELDER,
-	FULLBACK,
-	CENTERBACK,
-	GOALKEEPER
-};
+#include <cstring>
+#include "Player.h"
 struct Team {
 	int numPlayers;
 	Player player;
 	int numTitles;
 	void InicializeTeam();
+	void PrintTeam();
 };
 
-struct Player {
-	char name[20];
-	Positions position;
-	int number;
-};

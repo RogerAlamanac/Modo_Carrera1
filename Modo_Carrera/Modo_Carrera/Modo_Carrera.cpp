@@ -1,6 +1,11 @@
 #include <iostream>
-
+#include "Team.h"
+#include <ctime>
 int main()
 {
-    std::cout << "Hello World!\n";
+    srand(time(NULL));
+    Player player;
+    Team team;
+    team.InicializeTeam();
+    //team.PrintTeam();
 }
