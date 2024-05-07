@@ -28,3 +28,7 @@ void Team::PrintTeam() {
 		std::cout << "OVR: " << player[i].OVR << std::endl;
 	}
 }
+
+Team::Team() {
+
+}
