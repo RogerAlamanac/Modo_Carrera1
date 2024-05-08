@@ -7,5 +7,6 @@ struct Team {
 	int numTitles;
 	void InicializeTeam();
 	void PrintTeam();
+	Team();
 };
 

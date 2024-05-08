@@ -15,5 +15,6 @@ struct Player {
 	int number;
 	int OVR;
 	int age;
+	Player();
 };
 
