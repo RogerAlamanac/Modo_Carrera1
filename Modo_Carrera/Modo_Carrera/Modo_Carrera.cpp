@@ -7,5 +7,5 @@ int main()
     Player player;
     Team team;
     team.InicializeTeam();
-    //team.PrintTeam();
+    team.PrintTeam();
 }

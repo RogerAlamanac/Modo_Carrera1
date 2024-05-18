@@ -10,11 +10,12 @@ enum class Positions {
 };
 
 struct Player {
+	int positions;
 	char name;
 	Positions position;
 	int number;
 	int OVR;
 	int age;
-	Player();
+	//Player();
 };
 
