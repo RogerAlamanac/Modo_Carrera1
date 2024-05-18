@@ -7,6 +7,6 @@ struct Team {
 	int numTitles = 0;
 	void InicializeTeam();
 	void PrintTeam();
-	//Team();
+	Team();
 };
 
